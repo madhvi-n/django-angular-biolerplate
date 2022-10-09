@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" type="text/css" href="{% static 'frontend/project/ang/styles.css' %}">
+{% endblock stylesheets %}
+
+{% block javascripts %}
+  <script type="text/javascript" src="{% static 'frontend/project/ang/runtime.js' %}"></script>
+  <script type="text/javascript" src="{% static 'frontend/project/ang/styles.js' %}"></script>
+  <script type="text/javascript" src="{% static 'frontend/project/ang/vendor.js' %}"></script>
+  <script type="text/javascript" src="{% static 'frontend/project/ang/polyfills.js' %}"></script>
+  <script type="text/javascript" src="{% static 'frontend/project/ang/main.js' %}"></script>
+{% endblock javascripts %}

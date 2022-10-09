@@ -1,2 +1,1 @@
-# django-angular-biolerplate
-Django Angular Boilerplate Project
+# Django Angular Boilerplate
