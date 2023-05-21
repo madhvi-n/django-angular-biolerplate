@@ -1,6 +1,10 @@
 <main class="app">
   <div class="container">
-    <h1>Hello World</h1>
+    <div class="centered">
+      <h1>Django Angular App</h1>
+    </div>
+
+    <button (click)="onClick()">count is {{ count }}</button>
     <router-outlet></router-outlet>
   </div>
 </main>
